@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 # Inherit the update-rc.d class for init script support
 inherit update-rc.d
 
-SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-Little3gy.git;protocol=ssh;branch=main \
+SRC_URI = "git://github.com/cu-ecen-aeld/assignments-3-and-later-Little3gy.git;protocol=https;branch=main \
            file://aesdsocket-start-stop"
 
 PV = "1.0+git${SRCPV}"
